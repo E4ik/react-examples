@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 
 const TodoItem = (props) => {
   const { id, done, children, onToggleItem } = props;
-  /* const onClick = () => {
+  const onClick = () => {
     onToggleItem(id);
   };
   let className = 'todo-item';
   if (done) {
     className += ' done';
-  } */
+  }
   return (
     <section data-name="TodoItem" className="style-3">
       <button className={className} onClick={onClick}>

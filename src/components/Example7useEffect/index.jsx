@@ -9,10 +9,7 @@ const Example6 = () => {
 
   return (
     <section data-name="Example7">
-      <button
-        className="my-btn d-block"
-        onClick={atClick}
-      >
+      <button className="my-btn d-block" onClick={atClick}>
         switch Clock
       </button>
       {show && <Clock />}

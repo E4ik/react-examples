@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // TODO
-/* const FunctionalCard = (props) => {
-  const {
-    img, name, children,
-  } = props;
+const FunctionalCard = (props) => {
+  const { img, name, children } = props;
   return (
     <div className="card">
       <img className="img" src={img} alt={name} />
+
       <div className="name">
         name:
         {name}
@@ -20,28 +19,20 @@ import PropTypes from 'prop-types';
   );
 };
 
-
 FunctionalCard.propTypes = {
   img: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  children: PropType.node,
+  children: PropTypes.node,
 };
- */
 
 const Example3 = () => {
   return (
     <section data-name="Example3">
       {/* TODO */}
-      {/* <FunctionalCard
-        img="http://fakeimg.pl/300x100/ecf0f1/"
-        name="milkmidi"
-      />
-      <FunctionalCard
-        img="http://fakeimg.pl/240x80/ecf0f1/"
-        name="奶綠茶"
-      >
+      <FunctionalCard img="http://fakeimg.pl/300x100/ecf0f1/" name="milkmidi" />
+      <FunctionalCard img="http://fakeimg.pl/240x80/ecf0f1/" name="奶綠茶">
         <h1>我是子元素</h1>
-      </FunctionalCard> */}
+      </FunctionalCard>
     </section>
   );
 };

@@ -1,10 +1,8 @@
 const ChildComponent = (props) => {
-  /* const {
-    onCallParent, count,
-  } = props;
+  const { onCallParent, count } = props;
   const atClick = () => {
     onCallParent('Hi, daddy');
-  }; */
+  };
   return (
     <div className="child-component">
       <h3>ChildComponent</h3>

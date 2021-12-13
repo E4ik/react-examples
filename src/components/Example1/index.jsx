@@ -7,3 +7,15 @@
 
 export default Example0;
  */
+
+const foo = () => {};
+const Example1 = () => {
+  return (
+    <div>
+      hi,react
+      <div className="abc" />
+    </div>
+  );
+};
+
+export default Example1;
